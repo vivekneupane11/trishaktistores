@@ -1,10 +1,22 @@
 ---
+import Blog from '../components/Blog';
+import Footer from '../components/Footer';
+import HeroBanner from '../components/HeroBanner';
+import OurServices from '../components/OurServices';
+import Team from '../components/Team';
+import Testimonial from '../components/Testimonial';
+
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Welcome to Astro.">
-<main>
-	<h1>Just getting started</h1>
+<main class ='h-[2000px]'>
+	<HeroBanner/>
+	<OurServices/>
+	<Team/>
+	<Testimonial/>
+	<Blog/>
+	<Footer/>
 </main>
 </Layout>
 
