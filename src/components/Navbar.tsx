@@ -16,10 +16,7 @@ const menuItems = [
     name: "About Us",
     path: "/about",
   },
-  {
-    name: "Contact Us",
-    path: "/contact",
-  },
+
 ];
 
 export default function Navbar() {
@@ -49,7 +46,7 @@ export default function Navbar() {
     };
   }, []);
   return (
-    <nav className={`w-screen-full pt-3 z-50  px-8 flex justify-between items-center shadow-lg transition-width duration-500 ${isNavbarFixed ? 'fixed w-[90%] ml-[5%] rounded-xl mt-4 shadow-3xl pt-2 bg-white ':''}`}>
+    <nav className={`w-screen-full pt-3 z-50  px-8 flex justify-between items-center shadow-lg transition-width duration-500 ${isNavbarFixed ? 'fixed top-1 w-[90%] ml-[5%] rounded-xl mt-4 shadow-3xl pt-2 bg-white ':''}`}>
       <img src="./assets/logo.jpg" className="pb-4" height="50px" width={"70px"} alt="Logo" />
       <ul className="flex w-2/3  justify-evenly ">
         <li

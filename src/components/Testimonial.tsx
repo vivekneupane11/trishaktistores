@@ -1,14 +1,14 @@
 
 export default function Testimonial() {
   return (
-<section className="bg-white ">
-<div className=" py-6">
+<section className="bg-white mt-5 ">
+<div className=" pt-6">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl mt-12 font-bold text-red-900">Words From Our Clients</h1>
      
         </div>
       </div>
-  <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+  <div className="pt-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
       <div className="mx-auto max-w-screen-sm">
       </div> 
       <div className="grid mb-8 lg:mb-12 lg:grid-cols-2">

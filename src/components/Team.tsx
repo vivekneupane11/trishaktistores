@@ -37,11 +37,12 @@ export default function Team() {
         </div>
       </div>
       <div className="container mx-auto py-12">
-        <div className="  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className="  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {team.map((e) => (
             <div
               key={e.name}
-              className=" group cursor-pointer relative bg-transparent rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 "
+              className=" group cursor-pointer relative bg-transparent rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 w-[90%] m-auto  sm:w-[100%] 
+              md:w-[100%] lg:w-[100%] xl:w-[100%]"
             >
               <img
                 src={e.image}

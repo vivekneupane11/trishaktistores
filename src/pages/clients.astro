@@ -1,0 +1,54 @@
+---
+import Banner from '../components/Banner';
+import Testimonial from '../components/Testimonial';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Welcome to Astro.">
+  <Banner title={'Our Clients'}/>
+
+  <div >
+    <div class="container mx-auto px-4 text-center my-12">
+      <h1 class="text-4xl font-bold text-red-900 mt-12">Our Clients
+  </h1>
+      <p class=" text-gray-600 pt-3 text-2xl">We focus on building relation than to bring sales
+  
+  </p>
+    </div>
+  </div>
+  <div class="flex flex-wrap justify-between items-center w-[80%] m-auto">
+   
+    <div class="m-10 w-[300px] sm:w-[200px] " >
+      <img src="/assets/11.jpeg"  alt="Client 2" class="h-50 w-full mx-auto">
+    </div>
+    <div class="m-10 w-[300px] sm:w-[200px] ">
+      <img src="/assets/22.jpeg"  alt="Client 3" class="h-50 w-full mx-auto">
+    </div>
+    <div class="m-10 w-[300px] sm:w-[200px] ">
+      <img src="/assets/33.jpeg"  alt="Client 4" class="h-50 w-full mx-auto">
+    </div>
+    <div class="m-10 w-[300px] sm:w-[200px] ">
+      <img src="/assets/44.jpeg"  alt="Client 5" class="h-50 w-full mx-auto">
+    </div>
+    <div class="w-[200px] sm:w-[200px]   md:w-1/4 lg:w-1/5 xl:w-1/6 p-4">
+      <img src="/assets/99.jpeg"  alt="Client 6" class="h-50 w-full mx-auto">
+    </div>
+    <div class="m-10 w-[300px] sm:w-[200px] ">
+      <img src="/assets/66.jpeg"  alt="Client 6" class="h-50 w-full mx-auto">
+    </div>
+  <div class="w-[200px] sm:w-[200px]   md:w-1/4 lg:w-1/5 xl:w-1/6 p-4">
+      <img src="/assets/77.png"  alt="Client 6" class="h-50 w-full mx-auto">
+    </div> 
+    <div class="m-10 w-[300px] sm:w-[200px] ">
+      <img src="/assets/66.jpeg"  alt="Client 6" class="h-50 w-full mx-auto">
+    </div>
+    <div class="m-10 w-[300px] sm:w-[200px] " >
+      <img src="/assets/00.jpeg"  alt="Client 1" class="h-50 w-full mx-auto">
+    </div>
+  </div>
+  
+  <Testimonial/>
+
+</Layout>
+
+

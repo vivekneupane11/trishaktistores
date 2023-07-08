@@ -1,5 +1,6 @@
 ---
 import '@fontsource/roboto';
+import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 export interface Props {
 	title: string;
@@ -23,6 +24,8 @@ const { title } = Astro.props;
 	<body class="antialiased">
 		<Navbar client:load />
 		<slot />
+		<Footer/>
+
 	</body>
 </html>
 <style is:global>
