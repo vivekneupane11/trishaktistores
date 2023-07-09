@@ -15,11 +15,11 @@ export default function Blog() {
 
 {/* Blog1 */}
   <div className="group my-6 cursor-pointer  max-w-xl sm:max-w-lg md:max-w-2xl lg:max-w-md xl:max-w-xl bg-white border border-gray-200 rounded-xl shadow-xl ">
-    <a href="#">
+    <a href="/blog2">
         <img className="rounded-t-lg w-full h-[330px]" src="/assets/trishakti.webp" alt="" />
     </a>
     <div className="p-5">
-        <a href="#">
+        <a href="/blog2">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900  group-hover:text-blue-800">How can i get fashionable clothing for my retail stores in reasonable price? Get connected and build relationships.
 </h5>
         </a>
@@ -35,11 +35,11 @@ export default function Blog() {
 
 {/* Blog 2  */}
 <div className="group cursor-pointer max-w-xl sm:max-w-lg md:max-w-2xl lg:max-w-md xl:max-w-xl bg-white border border-gray-200 rounded-xl shadow-xl ">
-    <a href="#">
+    <a href="/blog1">
         <img className="rounded-t-lg w-full" src="/assets/banner2.jpg" alt="" />
     </a>
     <div className="p-5">
-        <a href="#">
+        <a href="/blog1">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900  group-hover:text-blue-800">Are You Planning to Open a Retail Clothing Shop? Why Trishakti Stores Should Be Your Wholesale Partner.
 </h5>
         </a>
