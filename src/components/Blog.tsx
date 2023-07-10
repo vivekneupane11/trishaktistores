@@ -6,7 +6,7 @@ export default function Blog() {
              <div className=" py-6">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl font-bold text-red-900">Get Latest News</h1>
-          <p className=" text-gray-400 pt-6 text-2xl w-[70%] text-center m-auto">
+          <p className=" text-gray-400 pt-6 text-2xl w-[100%] sm:w-[70%] text-center m-auto">
            Keep updated with Trishakti Stores
           </p>
         </div>

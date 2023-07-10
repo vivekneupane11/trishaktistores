@@ -39,7 +39,7 @@ export default function OurServices() {
           <div
         
             key={index}
-            className="bg-white rounded-lg w-[45%] p-6 flex  items-center text-center relative shadow-xl m-4 mt-28"
+            className="bg-white rounded-lg w-full sm:w-[45%] p-6 flex  items-center text-center relative shadow-xl m-4 mt-28"
           >
           <img className="rounded-full absolute left-[50%] top-[-10%] translate-x-[-50%] translate-y-[-50%] shadow-xl" src={service.image} alt={service.title} height={"80px"} width={"80px"}/>
           <section>
